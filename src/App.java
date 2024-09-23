@@ -56,9 +56,5 @@ public class App {
         {10,11,12},
     };
     System.out.println(marks[3][2]);
-
-        
-
-
     }
 }
