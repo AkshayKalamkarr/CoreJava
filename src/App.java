@@ -49,12 +49,28 @@ public class App {
 
     /////// multi dimentional array
      
-    int marks[][]={
-        {1,2,3},
-        {4,5,6},
-        {7,8,9},
-        {10,11,12},
-    };
-    System.out.println(marks[3][2]);
+    // int marks[][]={
+    //     {1,2,3},
+    //     {4,5,6},
+    //     {7,8,9},
+    //     {10,11,12},
+    // };
+    // System.out.println(marks[3][2]);
+
+    // int a[]={11,22,33,44,55};
+    // for (int i = 0; i <= a.length; i++) {
+    //     System.out.println(a.length);
+    // }
+
+
+    
+
+
+
+
+
+
+
+
     }
 }
