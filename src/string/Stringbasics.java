@@ -81,6 +81,29 @@ String substr=str.substring(2,5);
 System.out.println(substr);
 
 
+/// split
+String para="hello world";
+String words[] = para.split("");
+for (String word : words) {
+  System.out.println(word);
+}
+
+// toCharArray
+String color="red";
+char letter[]=color.toCharArray();
+for (char c : letter) {
+  System.out.println(c);
+}
+
+
+// isEmpty
+
+String animal="";
+if (animal.isEmpty()) {
+  System.out.println("your string is empty");
+}else{
+  System.out.println("string is not empty");
+}
 
 
 }
