@@ -10,6 +10,11 @@ public class LearningClasses {
     // dog2.name="Leo";
     // dog.bark();
 
+    Complex complex=new Complex();
+    complex.a=3;
+    complex.b=4;
+    complex.print();
+
 
 
 
@@ -40,7 +45,7 @@ class Complex{
   int a,b;
 
   void print(){
-    System.out.println();
+    System.out.println(a+" + "+b);
   }
 }
 
