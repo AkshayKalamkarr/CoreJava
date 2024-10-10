@@ -2,6 +2,17 @@ package encapsulation.learnPackage;
 
 public class Person {
 
+
+  public static int count=0;
+
+  public Person(){
+    count++;
+  }
+
+
+
+
+
   private int age;
 
   private String name;
