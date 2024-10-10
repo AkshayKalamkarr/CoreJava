@@ -2,8 +2,23 @@ package encapsulation.learnPackage;
 
 public class Person {
 
-  int age;
+  private int age;
 
-  String name;
+  private String name;
+
+
+  boolean canBeChanged=false;
+
+
+  public void setAge(int age){
+    if (canBeChanged) {
+      this.age=age;
+    }
+
+  }
+
+  public int getAge (){
+    return age;
+  }
 
 }
