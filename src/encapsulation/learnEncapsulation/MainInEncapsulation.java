@@ -34,6 +34,7 @@ public class MainInEncapsulation {
     person1.setAge(2);
 
     Person person2=new Person();
+    
 
     Person person3=new Person();
     System.out.println(Person.count);
