@@ -12,6 +12,8 @@ public class MainClass {
     Teacher teacher=new Teacher();
     teacher.teachingClass=4;
 
+    teacher.degree="phd";
+
 
     
   }
