@@ -6,7 +6,7 @@ public class LearnAbstract {
 
     Car car=new Car();
     car.accelerate();
-    car.breake(2);
+    car.brakes(2);
     car.honks();
 
 
@@ -19,12 +19,24 @@ public class LearnAbstract {
 abstract class Vehicle{
   abstract void accelerate();
 
-  abstract int breake(int wheels);
+  abstract int brakes(int wheels);
 
 
 
   void honks(){                               /////// concrete methods
     System.out.println("vehicle honks");
+  }
+}
+
+
+
+class Scooter extends Vehicle{
+  void accelerate(){
+
+  }
+
+  int brakes(int wheels){
+    return 0;
   }
 }
 
@@ -39,7 +51,7 @@ class Car extends Vehicle{
   }
 
 
-  int breake(int wheels){
+  int brakes(int wheels){
     System.out.println("car breaks are pushed");
     return wheels;
   }
