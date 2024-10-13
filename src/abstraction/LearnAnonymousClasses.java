@@ -25,6 +25,6 @@ class OuterClass{
 }
 
 
-interface SuperInterface{
-  void interfaceMethod();
-}
+// interface SuperInterface{
+//   void interfaceMethod();
+// }
